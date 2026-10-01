@@ -10,13 +10,12 @@ Postman, Excel
 - Test cases (positive, negative, missing fields, duplicate email, wrong password)
 - Postman collection with status code checks
 - Bug reports
-- Collection Runner result screensho
+- Collection Runner result screenshot
 
 ## Bugs found
 - Register API accepts missing username/email (201 instead of 400)
 - Register API allows duplicate email (201 instead of 409)
 - Login returns generic "Bad credentials" when password is missing
-- 500 error "Query did not return a unique result" for duplicate users
 
 ## How to use
 1. Import the .json file in Postman
